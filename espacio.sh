@@ -1,6 +1,6 @@
 #!/bin/sh
 #Este script se deebe ejecutar en un cronjob, sirve para alertar por almacenamiento si supera el threshold de 90%
-#Me lo pidieron en entrevista tecnica que pase pero luego no me llamaron para el trabajo :(
+#Me lo pidieron en entrevista tecnica
 #Deben cambiar el usuario root por su usuario
 cd /tmp
 df -h | sort -k 5 -r | tee fs.txt
